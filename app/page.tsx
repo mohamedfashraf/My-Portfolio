@@ -4,6 +4,7 @@ import Projects from "@/components/main/Projects";
 import Skills from "@/components/main/Skills";
 import Image from "next/image";
 import { SpeedInsights } from "@vercel/speed-insights/next";
+import { Analytics } from "@vercel/analytics/react";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
         <Encryption />
         <Projects />
         <SpeedInsights />
+        <Analytics />
       </div>
     </main>
   );
