@@ -3,6 +3,7 @@ import Hero from "@/components/main/Hero";
 import Projects from "@/components/main/Projects";
 import Skills from "@/components/main/Skills";
 import Image from "next/image";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
         <Skills />
         <Encryption />
         <Projects />
+        <SpeedInsights />
       </div>
     </main>
   );
